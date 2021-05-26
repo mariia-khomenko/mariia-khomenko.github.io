@@ -1,0 +1,32 @@
+header {
+    /*background-image: url("../img/bg_header.jpg"), linear-gradient(to bottom, rgba(120,120,120, .7), rgba(10,10,10, .8));
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;*/
+    color: #000;
+    height: 100vh;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    height:100%;
+    padding-bottom: 30vh;
+}
+
+header h1 {
+    text-align: center;
+    margin:auto;
+}
+
+header img.abs {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    display: block;
+    z-index: -1;
+}
